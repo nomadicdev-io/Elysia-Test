@@ -8,7 +8,7 @@ RUN bun install --production
 
 # Copy app source code
 COPY src/ ./src
-COPY jsconfig.json ./
+COPY tsconfig.json ./
 
 # Set environment and expose port 5111
 ENV NODE_ENV=production
